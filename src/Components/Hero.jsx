@@ -6,7 +6,7 @@ function Hero() {
     <div className='w-full h-screen z-1'>
         <div>
           <div className='z-2 absolute overflow-hidden'>
-            <h1 className='px-6 pt-0 leading-tight font-normal font-kanit text-white  text-[7rem]'>
+            <h1 className='px-6 pt-12 leading-tight font-normal font-kanit text-white  text-[7rem]'>
               FarmConnect: Connecting Farmers and merchants
             </h1>
             <br/>

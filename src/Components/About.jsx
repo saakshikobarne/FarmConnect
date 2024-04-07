@@ -1,20 +1,22 @@
 import React from 'react'
+import Mill from '../assets/Mill.svg'
 
 function Ecom() {
   return (
-    <div className='w-full h-screen flex'>
-        <div className='w-1/2 h-screen bg-red-200'>
-            <h1 className='m-20'>
-                gello
-            </h1>
-            <p className='m-20'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, qui accusamus itaque nemo, reprehenderit molestias quod vero et vel ut quas quam suscipit corrupti obcaecati, aspernatur necessitatibus tempore. Quas, accusantium?
-            </p>
+    <div className="w-full h-screen flex">
+      <div className="w-1/2 h-screen bg-[#fcf9f4] flex justify-center">
+        <div className="flex flex-col items-center">  
+          <h1 className="m-20 pt-16 text-[2.5rem]">One Nation, One market</h1>  
+          <p className='w-1/2 text-[1.2rem]'>
+            We aim to revolutionize agricultural trade in India by providing a unified platform for farmers, merchants, and consumers across the nation. To achieve this goal, a robust and scalable web application architecture is essential. This report outlines a three-tier architecture design tailored to the specific requirements of the initiative.
+          </p>
         </div>
-        <div className='w-1/2 h-screen bg-blue-200'>
-        gfgh
-        </div>
+      </div>
+      <div className="w-1/2 h-screen flex items-center justify-center bg-[#fcf9f4]">
+        <img src={Mill} height={400} width={400} />  
+      </div>
     </div>
+
   )
 }
 

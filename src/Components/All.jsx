@@ -26,13 +26,8 @@ const cards=[
 
 function Commerce() {
 
-  function openDiscordLink() {
-    window.location.href = "http://localhost:5173/commerce";
-  }
-
-
   return (
-    <div id="commerce" className='p-20 bg-[#dacec2]'>
+    <div className='p-20 bg-[#dacec2]'>
       <h1 className='m-4 mb-10 text-[3rem] font-kanit'>E-commerce Marketplace</h1>
       <div className="flex flex-col items-center justify-center h-2/3 overflow-y-auto px-4">
         <div className="grid grid-cols-4 gap-6">
@@ -45,9 +40,49 @@ function Commerce() {
             />
           ))}
         </div>
+        <div className="grid grid-cols-4 gap-6">
+          {cards.map((item, index)=>(
+              <Card key={index}
+                  image= {item.image}
+                  title={item.title}
+                  description={item.description}
+                  
+            />
+          ))}
+        </div>
+        <div className="grid grid-cols-4 gap-6">
+          {cards.map((item, index)=>(
+              <Card key={index}
+                  image= {item.image}
+                  title={item.title}
+                  description={item.description}
+                  
+            />
+          ))}
+        </div>
+        <div className="grid grid-cols-4 gap-6">
+          {cards.map((item, index)=>(
+              <Card key={index}
+                  image= {item.image}
+                  title={item.title}
+                  description={item.description}
+                  
+            />
+          ))}
+        </div>
+        <div className="grid grid-cols-4 gap-6">
+          {cards.map((item, index)=>(
+              <Card key={index}
+                  image= {item.image}
+                  title={item.title}
+                  description={item.description}
+                  
+            />
+          ))}
+        </div>
       </div>
       <div className='flex items-center justify-center mt-12'>
-        <button onClick={openDiscordLink} className='border-zinc-400 bg-[#] border-width-4 px-5 py-3 rounded-3xl text-[1rem]'>View more</button>
+        <button className='border-zinc-400 bg-[#] border-width-4 px-5 py-3 rounded-3xl text-[1rem]'>View more</button>
       </div>
     </div>
   )

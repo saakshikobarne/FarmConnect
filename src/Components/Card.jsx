@@ -20,7 +20,7 @@ const Card = ({ image, title, description }) => {
         src={image}
         alt={title}
       />
-      <div className="p-4">
+      <div className="p-4 bg-white">
         <h5 className="text-xl font-bold mb-2">{title}</h5>
         <p className="text-gray-700">{description}</p>
       </div>
