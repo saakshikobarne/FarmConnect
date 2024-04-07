@@ -3,8 +3,8 @@ import Mill from '../assets/Mill.svg'
 
 function Ecom() {
   return (
-    <div className="w-full h-screen flex">
-      <div className="w-1/2 h-screen bg-[#fcf9f4] flex justify-center">
+    <div className="w-full h-screen flex bg-[#dacec2]">
+      <div className="w-1/2 h-screen  flex justify-center">
         <div className="flex flex-col items-center">  
           <h1 className="m-20 pt-16 text-[2.5rem]">One Nation, One market</h1>  
           <p className='w-1/2 text-[1.2rem]'>
@@ -12,7 +12,7 @@ function Ecom() {
           </p>
         </div>
       </div>
-      <div className="w-1/2 h-screen flex items-center justify-center bg-[#fcf9f4]">
+      <div className="w-1/2 h-screen flex items-center justify-center ">
         <img src={Mill} height={400} width={400} />  
       </div>
     </div>

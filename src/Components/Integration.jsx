@@ -17,7 +17,7 @@ function Integration() {
         </div>
       </div>
       <div className="w-1/2 h-screen flex items-center  justify-center bg-[#fcf9f4]">
-        <button onClick={openDiscordLink} className='text-[2rem py-3 px-3 rounded-2xl bg-[#293e31] text-white hover:bg-[#fe8340]'>Click To view</button> 
+        <button onClick={openDiscordLink} className='text-[1.2rem] py-3 px-3 rounded-2xl bg-[#293e31] text-white hover:bg-[#fe8340]'>Click To view</button> 
       </div>
     </div>
 
